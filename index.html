@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .main {
+      padding: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .main ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .main li {
+      margin-bottom: 10px;
+    }
+
+    .main a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .main a:hover {
+      text-decoration: underline;
+    }
+
+    .footer p {
+      font-size: 12px;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>My Blog</h1>
     </header>
 
-    <section id="home">
-        <h1>Welcome to Your Blog</h1>
-        <p>Explore the world through my words.</p>
-    </section>
-
-    <section id="blog">
-        <h2>Recent Blog Posts</h2>
-        <div class="blog-post">
-            <h3><a href="blog-post-1.html">Blog Post Title 1</a></h3>
-            <p>Date: September 21, 2023</p>
-            <p>Short description of your blog post goes here...</p>
-        </div>
-        <div class="blog-post">
-            <h3><a href="blog-post-2.html">Blog Post Title 2</a></h3>
-            <p>Date: September 20, 2023</p>
-            <p>Short description of your blog post goes here...</p>
-        </div>
-        <!-- Add more blog posts as needed -->
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at your@email.com.</p>
-    </section>
+    <main>
+      <ul>
+        <li><a href="http://www.example.com/blog/post-1">Post 1</a></li>
+        <li><a href="http://www.example.com/blog/post-2">Post 2</a></li>
+        <li><a href="http://www.example.com/blog/post-3">Post 3</a></li>
+      </ul>
+    </main>
 
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+      <p>Copyright &copy; 2023 My Blog</p>
     </footer>
+  </div>
 </body>
 </html>
-
